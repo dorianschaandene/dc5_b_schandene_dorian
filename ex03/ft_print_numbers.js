@@ -9,5 +9,5 @@ function numbers(){
         
     }
 
-    console.log(resultat);
+    return(resultat);
 }

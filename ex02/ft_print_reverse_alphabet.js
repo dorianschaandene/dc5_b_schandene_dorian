@@ -16,5 +16,5 @@ function alphabet(order){
         
     }
 
-    console.log(resultat);
+    return(resultat);
 }
