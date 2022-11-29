@@ -1,18 +1,11 @@
-function alphabet(order){
-    const alphabet = ["a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z"];
+function numbers(){
     let resultat="";
 
    
-    for(var i=0; i<alphabet.length; i++){ //Traitement du tableau
-        if(order ==  0){ //Affichage ordre croissant
+    for(var i=0; i<9; i++){ //Création de la ligne de chiffres
 
-            resultat = resultat+" "+alphabet[i];
-
-        }else if(order == 1){ //affichage ordre decroissant
-
-            resultat = resultat+" "+alphabet[alphabet.length-i-1];
-
-        }
+        number = 1+i;    
+        resultat = resultat+" "+number;
         
     }
 
